@@ -1,0 +1,54 @@
+.wrapper{
+font-size : 16px ;
+font-weight : 600 ;
+min-width : 100px ;
+padding : 9px 16px ;
+border: 1px solid rgba(22, 24, 35, 0.12);
+color: black;
+cursor: pointer;
+background-color: white;
+text-align: center;
+font-family: ProximaNova;
+}
+.wrapper+.wrapper{
+    margin-left: 16px;
+}
+.wrapper:hover{
+    background-color: rgba(22, 24, 35, 0.03);
+}
+.primary{
+    background-color: var(--primary);
+    color: white;
+    border-radius:4px;
+}
+.primary:hover{
+    background : linear-gradient( 0deg , rgba( 0 , 0 , 0 , 0.06 ) , rgba( 0 , 0 , 0 , 0.06 ) ) , #FE2C55 ;
+}
+.title{
+    border-radius: 999px;
+    padding: 0;
+    min-width: max-content !important;
+}
+.outline{
+    border: 1px solid var(--primary);
+    border-radius: 4px;
+    color: var(--primary);
+    padding: 0;
+    width: max-content;
+}
+.outline:hover{
+    background-color: rgba(254, 44, 85, 0.06);
+}
+.disable{
+    pointer-events: none;
+    opacity: 0.5;
+}
+.noBorder{
+    border: none;
+}
+a{
+    text-decoration: none;
+    display: block;
+    line-height: normal;
+    font-family: 'IBM Plex Sans', sans-serif !important;
+}

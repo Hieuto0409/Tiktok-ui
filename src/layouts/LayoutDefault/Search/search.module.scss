@@ -1,0 +1,109 @@
+.searchContainer{
+    width: var(--header-search-width);
+}
+.SearchBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 92px;
+    background-color:rgba(22, 24, 35, 0.06);
+    height: max-content;
+    cursor: text;
+}
+.HeaderSearch{
+    padding: 0px 16px;
+    padding-right: 0;
+    border: none;
+    background-color:transparent;
+    font-size: 16px;
+    position: relative;
+    width:var(--header-input-search-width);
+    border-radius: 92px;
+    outline: none;
+}
+.outline{
+    border: 1px solid #d7d7d9;
+}
+.noOutline{
+    border: none;
+}
+.DisplayNone{
+    display:none;
+}
+.DisplayBlock{
+    display:block;
+}
+.searchContainer:focus{
+    outline:auto;
+}
+.iconSearch{
+    border: none;
+    padding: 8px 12px 10px 12px;
+    margin-left: 38px;
+    border-bottom-right-radius:92px;
+    border-top-right-radius:92px;
+    cursor: pointer;
+    width:max-content;
+    font-size: 18px;
+    margin-top: 1px;
+    background-color: transparent;
+}
+.iconSearch:hover{
+    background-color: rgba(22, 24, 35, 0.03);
+}
+.separate{
+    position: absolute;
+    font-size: 30px;
+    margin-left: 260px;
+    font-weight: 100;
+    color: #d7d7d9;
+    margin-bottom: 12px;
+    margin-top: 11px;
+}
+.loading,.close{
+    position: absolute;
+    z-index: 999;
+    margin-left: 216px;
+    font-size: 14px;
+    color: #a7a7ab;
+    cursor: pointer;
+    line-height: 40px;
+    margin-top: 3px;
+    padding: 0 6px ;
+    background-color:#f1f1f2;
+}
+.loading{
+    animation: loading  2s  linear;
+}
+@keyframes loading{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.ResultSearch{
+    width: var(--header-search-width);
+}
+.AccountHeader{
+    height: 30px;
+    padding: 5px 12px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    color: rgba(22, 24, 35, 0.5);
+}
+.bottomInput{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.textContainer{
+    width: 100%;
+    padding: 15px ;
+    display: flex;
+}

@@ -1,0 +1,50 @@
+.MenuContent{
+    width: 224px;
+}
+.TippyContainer{width: max-content;}
+ .menuitem{
+    margin-left: 0 !important; 
+    width:100% ;
+    text-align: left ;
+    line-height: 25px ;
+    font-weight: 700;
+}
+.menuTitle{
+    
+    font-weight: 500 !important;
+    font-size: 15px !important;
+}
+.menuIcon{
+    padding-right: 10px;
+    width: max-content;
+}
+.popper{
+    margin-top: -10px;
+}
+.separate{
+    border-top: 1px solid rgba(22, 24, 35, 0.12);
+}
+/* header bậc 2 menu */
+.container{
+    display: flex;
+    width: 100%;
+    line-height: 35px;
+    background-color: white;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+}
+.onBack{
+    padding: 5px 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.HeaderTitle{
+    width: 100%;
+    align-items: center;
+    font-weight: 600;
+    display: block;
+}
+.HeaderText{
+    position: fixed;
+}

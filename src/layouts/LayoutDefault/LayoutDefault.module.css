@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    padding: var(--header-padding);
+    max-width: 100%;
+}
+.containerContent{
+    margin-top: var(--header-height);
+    width: var(--header-content-width);
+    display: flex;
+}
+.content{
+    flex: 1;
+}

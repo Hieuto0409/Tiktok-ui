@@ -1,0 +1,4 @@
+.container{
+    width: var(--sizeBar-width);
+    max-width: 100%;
+}

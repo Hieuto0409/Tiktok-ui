@@ -4,4 +4,5 @@ export const RoutesConfig = {
     ProFile: '/@:nickname',
     Upload: '/upload',
     FeedBack: '/FeedBack',
+    Live: '/Live',
 };

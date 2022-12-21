@@ -1,0 +1,68 @@
+.Container{
+    padding: 16px 0;
+}
+.border{
+    border-bottom: 0.05px solid rgba(22, 24, 35, 0.12);
+    padding-top: 20px;
+}
+.ItemsContainer{
+    display: flex;
+    height: 48px;
+    padding: 8px ;
+}
+.ItemsContainer:hover{
+    background-color: rgba(22, 24, 35, .03);
+    cursor: pointer;
+}
+.imgUser{
+    border-radius: 100000%;
+    height:32px;
+    width: 32px;
+    object-fit: cover;
+    border: 1px solid rgba(22, 24, 35, 0.12);
+}
+.UserName{
+    color: rgb(22, 24, 35);
+    font-family: SofiaPro, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: -2px;
+    max-width: 260px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.UserNickName{
+    color: rgba(22, 24, 35, 0.75);
+    font-family: ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    max-width: 260px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.InformationUser{ margin-left: 12px;}
+.Label{
+    padding: 8px ;
+    color: rgba(22, 24, 35, .75);
+    font-family: ProximaNova,Arial,Tahoma,PingFangSC,sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+.iconCheck{
+    color: rgb(32, 213, 236);
+}
+.SeeMore{
+    padding-left: 10px;
+    padding-top: 10px;
+    color: rgb(254, 44, 85);
+    font-family: ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+}

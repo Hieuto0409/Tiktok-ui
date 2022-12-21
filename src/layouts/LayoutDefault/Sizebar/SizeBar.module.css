@@ -8,12 +8,10 @@
     height:48px;
     display:flex;
     align-items: center;
-    /* color: rgba(22, 24, 35, 1);
-    font-family: "IBM Plex Sans",ProximaNova,Arial,Tahoma,PingFangSC,sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 25px;
-    margin-left: 8px */
+}
+.border{
+    border-bottom: 0.05px solid rgba(22, 24, 35, 0.12);
+    padding-top: 20px;
 }
 .active{
     fill: red;

@@ -11,7 +11,7 @@ function MenuItems({ icon, to, title, className, activeIcon }) {
                 to={to}
                 className={(value) => {
                     value.isActive ? setNone(true) : setNone(false);
-                    return clsx(className, style.ItemsHover, { [style.active]: value.isActive });
+                    return clsx(className, style.ItemsPrimary, style.ItemsHover, { [style.active]: value.isActive });
                 }}
             >
                 <span className={clsx({ [style.None]: CheckActiveIcon })}>{icon}</span>

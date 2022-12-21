@@ -1,8 +1,10 @@
-import style from './SizeBar.module.css';
+import { LiveIcon, LiveIconActive, FlowingIcon, FlowingIconActive, HomeIcon, HomeIconActive } from '~/components/icon';
 import clsx from 'clsx';
+
+import style from './SizeBar.module.css';
 import Menu, { MenuItems } from '~/components/MenuSizeBar';
 import Config from '~/routes/Routes';
-import { LiveIcon, LiveIconActive, FlowingIcon, FlowingIconActive, HomeIcon, HomeIconActive } from '~/components/icon';
+import ListAccountSizeBar from '~/components/ListAccountSizeBar';
 function SizeBar() {
     // đang active icon
     return (
@@ -29,7 +31,10 @@ function SizeBar() {
                     icon={<LiveIcon />}
                     activeIcon={<LiveIconActive />}
                 />
+                <div className={style.border}></div>
             </Menu>
+            <ListAccountSizeBar label="Suggested accounts" />
+            <ListAccountSizeBar label="Following accounts" />
         </div>
     );
 }

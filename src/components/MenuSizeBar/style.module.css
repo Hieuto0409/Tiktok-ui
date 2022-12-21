@@ -4,6 +4,9 @@
 .active{
     color: var(--primary) !important;
 }
+.ItemsPrimary{
+    color: black ;
+}
 .Title{
     font-weight: 700;
     font-size: 18px;

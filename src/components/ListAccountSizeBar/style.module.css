@@ -1,9 +1,10 @@
 .Container{
     padding: 16px 0;
+    padding-bottom: 0;
 }
 .border{
     border-bottom: 0.05px solid rgba(22, 24, 35, 0.12);
-    padding-top: 20px;
+    padding-top: 15px;
 }
 .ItemsContainer{
     display: flex;
@@ -52,6 +53,7 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 20px;
+    padding-top: 0;
 }
 .iconCheck{
     color: rgb(32, 213, 236);
@@ -65,4 +67,52 @@
     font-size: 14px;
     line-height: 20px;
     cursor: pointer;
+}
+/* tippy items */
+.TippyContainer{
+    width: 320px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: rgb(0 0 0 / 12%) 0px 4px 16px;
+    border-radius: 8px
+}
+.Fs44px{
+    height:44px;
+    width: 44px;
+}
+.FlexButton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.FixIn4User{
+    padding-top: 20px;
+    margin-left: 0;
+}
+.FixUserName{
+    font-size: 18px;
+    font-family: SofiaPro, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 700;
+}
+.FixUserNickName{
+    font-family: ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+.StyleIn4Fl{
+    line-height: 20px;
+}
+.In4Fl{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.styleN{
+    color: rgba(22, 24, 35, 0.75);
+    font-size: 17px;
+}
+.styleS{
+    font-size: 20px;
 }

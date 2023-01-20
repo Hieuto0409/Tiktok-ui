@@ -14,7 +14,7 @@ import { Link } from 'react-router-dom';
 import 'tippy.js/dist/tippy.css';
 
 import Button from '~/components/button';
-import { InboxIcon, MessageIcon } from '~/components/icon';
+import { InboxIcon, MessageIcon, EffectIcon } from '~/components/icon';
 import Image from '~/components/img';
 import Menu from '~/components/poper/Menu';
 import Search from '../Search';
@@ -96,6 +96,11 @@ function Header() {
                     <Button to="/upload">+ Upload</Button>
                     {CurrentUser ? (
                         <>
+                            <NoHeadlessTippy content="Create Effects" delay={[0, 0]} placement="bottom-end">
+                                <button className={style.LoginIcon}>
+                                    <EffectIcon />
+                                </button>
+                            </NoHeadlessTippy>
                             <NoHeadlessTippy content="Message" delay={[0, 0]} placement="bottom-end">
                                 <button className={style.LoginIcon}>
                                     <MessageIcon />

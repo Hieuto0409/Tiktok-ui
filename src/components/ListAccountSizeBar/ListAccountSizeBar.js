@@ -12,26 +12,22 @@ function ListAccountSizeBar({ label }) {
                 UserName={'Tô Quang Hiếu'}
                 NickName={'@toquanghieu123'}
                 ImgSrc={'https://upload.wikimedia.org/wikipedia/commons/9/93/Jisoo_in_2022.jpg'}
+                NumFl={'10M'}
+                NumLike={'101M'}
             />
             <AccountSizeBar
                 UserName={'Tô Quang Hiếu'}
                 NickName={'@toquanghieu123'}
                 ImgSrc={'https://upload.wikimedia.org/wikipedia/commons/9/93/Jisoo_in_2022.jpg'}
+                NumFl={'10M'}
+                NumLike={'101M'}
             />
             <AccountSizeBar
                 UserName={'Tô Quang Hiếu'}
                 NickName={'@toquanghieu123'}
                 ImgSrc={'https://upload.wikimedia.org/wikipedia/commons/9/93/Jisoo_in_2022.jpg'}
-            />
-            <AccountSizeBar
-                UserName={'Tô Quang Hiếu'}
-                NickName={'@toquanghieu123'}
-                ImgSrc={'https://upload.wikimedia.org/wikipedia/commons/9/93/Jisoo_in_2022.jpg'}
-            />
-            <AccountSizeBar
-                UserName={'Tô Quang Hiếu'}
-                NickName={'@toquanghieu123'}
-                ImgSrc={'https://upload.wikimedia.org/wikipedia/commons/9/93/Jisoo_in_2022.jpg'}
+                NumFl={'10M'}
+                NumLike={'101M'}
             />
             <p className={style.SeeMore}>See more</p>
             <div className={style.border}></div>

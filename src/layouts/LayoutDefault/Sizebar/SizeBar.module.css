@@ -1,7 +1,11 @@
 .container{
     width: var(--sizeBar-width);
     max-width: 100%;
+}
+.ContainerItems{
+    padding-bottom: 20px;
     padding-top: 20px;
+    border-bottom: 0.05px solid rgba(22, 24, 35, 0.12);
 }
 .Menuitems{
     width: 100%;
@@ -10,7 +14,6 @@
     align-items: center;
 }
 .border{
-    border-bottom: 0.05px solid rgba(22, 24, 35, 0.12);
     padding-top: 20px;
 }
 .active{

@@ -4,7 +4,7 @@ import clsx from 'clsx';
 import AccountSizeBar from './AccountItemsSizeBar';
 function ListAccountSizeBar({ label }) {
     return (
-        <div className={clsx(style.Container)}>
+        <div>
             <div>
                 <p className={style.Label}>{label}</p>
             </div>
@@ -29,8 +29,7 @@ function ListAccountSizeBar({ label }) {
                 NumFl={'10M'}
                 NumLike={'101M'}
             />
-            <p className={style.SeeMore}>See more</p>
-            <div className={style.border}></div>
+            <p className={clsx(style.SeeMore)}>See more</p>
         </div>
     );
 }

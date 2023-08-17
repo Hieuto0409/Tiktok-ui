@@ -1,11 +1,4 @@
-.Container{
-    padding: 16px 0;
-    padding-bottom: 0;
-}
-.border{
-    border-bottom: 0.05px solid rgba(22, 24, 35, 0.12);
-    padding-top: 15px;
-}
+
 .ItemsContainer{
     display: flex;
     height: 48px;

@@ -1,0 +1,44 @@
+.Label{
+    padding: 8px ;
+    color: rgba(22, 24, 35, .75);
+    font-family: ProximaNova,Arial,Tahoma,PingFangSC,sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 0;
+}
+.ButtonContainer{
+    height: 24px;
+    margin-bottom: 12px;
+    padding: 0px 10px;
+    border: 1px solid rgba(22, 24, 35, 0.2);
+    background: rgb(255, 255, 255);
+    margin-right: 8px;
+    margin-left: 0 !important;
+    max-width: 300px !important;
+    display: flex;
+    min-width: 0px !important;
+    align-items: center;
+}
+.ButtonContent{
+    line-height: 24px;
+    color: rgba(22, 24, 35, 0.75);
+    font-family: ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.Icon{
+    padding-right: 6px;
+    line-height: 29px;
+    padding-top: 3px;
+}
+.listButton{
+    display: flex;
+    align-items: center;
+    width: 340px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}

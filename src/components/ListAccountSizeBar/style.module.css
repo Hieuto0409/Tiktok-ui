@@ -63,7 +63,7 @@
 }
 /* tippy items */
 .TippyContainer{
-    width: 320px;
+    width: max-content;
     background-color: white;
     padding: 20px;
     box-shadow: rgb(0 0 0 / 12%) 0px 4px 16px;
@@ -95,6 +95,7 @@
 }
 .StyleIn4Fl{
     line-height: 20px;
+    padding-right: 10px;
 }
 .In4Fl{
     display: flex;
@@ -104,8 +105,8 @@
 }
 .styleN{
     color: rgba(22, 24, 35, 0.75);
-    font-size: 17px;
+    font-size: 14px;
 }
 .styleS{
-    font-size: 20px;
+    font-size: 14px;
 }

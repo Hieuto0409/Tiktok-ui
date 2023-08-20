@@ -1,3 +1,7 @@
+.Container{
+    padding-left: 10px;
+    padding-right: 10px;
+}
 .Label{
     padding: 8px ;
     color: rgba(22, 24, 35, .75);
@@ -15,7 +19,7 @@
     background: rgb(255, 255, 255);
     margin-right: 8px;
     margin-left: 0 !important;
-    max-width: 300px !important;
+    max-width: 150px !important;
     display: flex;
     min-width: 0px !important;
     align-items: center;
@@ -38,7 +42,7 @@
 .listButton{
     display: flex;
     align-items: center;
-    width: 340px;
+    width: var(--sizeBar-width);
     box-sizing: border-box;
     flex-wrap: wrap;
 }

@@ -1,15 +1,16 @@
 .container{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     width:100%;
-    padding: var(--header-padding);
+    /* padding: var(--header-padding); */
     max-width: 100%;
 }
 .containerContent{
     margin-top: var(--header-height);
     width: var(--header-content-width);
-    display: flex;
+    /* display: flex; */
 }
 .content{
-    flex: 1;
+    /* flex: 1; */
+    margin-left: var(--sizeBar-width);
 }

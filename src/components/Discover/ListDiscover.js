@@ -4,7 +4,7 @@ import style from './style.module.css';
 import { IconX, IconMusic } from '../icon';
 function ListDiscover({ label }) {
     return (
-        <div>
+        <div className={style.Container}>
             <div>
                 <p className={style.Label}>{label}</p>
             </div>

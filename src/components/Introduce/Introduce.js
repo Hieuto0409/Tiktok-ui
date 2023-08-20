@@ -1,10 +1,9 @@
 import PropTypes from 'prop-types';
 import style from './style.module.css';
 function Introduce({ label }) {
-    console.log(label);
     return (
         <div>
-            <p className={style.Items}>{label}</p>
+            <a className={style.Items}>{label}</a>
         </div>
     );
 }

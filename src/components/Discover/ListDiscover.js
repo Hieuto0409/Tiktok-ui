@@ -1,7 +1,7 @@
 import DiscoverButton from './DiscoverButton';
 import PropTypes from 'prop-types';
 import style from './style.module.css';
-import { IconX, IconMusic } from '../icon';
+import { IconX, IconMusic } from '~/components/icon';
 function ListDiscover({ label }) {
     return (
         <div className={style.Container}>

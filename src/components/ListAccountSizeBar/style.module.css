@@ -1,0 +1,112 @@
+
+.ItemsContainer{
+    display: flex;
+    height: 48px;
+    padding: 8px ;
+}
+.ItemsContainer:hover{
+    background-color: rgba(22, 24, 35, .03);
+    cursor: pointer;
+}
+.imgUser{
+    border-radius: 100000%;
+    height:32px;
+    width: 32px;
+    object-fit: cover;
+    border: 1px solid rgba(22, 24, 35, 0.12);
+}
+.UserName{
+    color: rgb(22, 24, 35);
+    font-family: SofiaPro, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: -2px;
+    max-width: 260px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.UserNickName{
+    color: rgba(22, 24, 35, 0.75);
+    font-family: ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    max-width: 260px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.InformationUser{ margin-left: 12px;}
+.Label{
+    padding: 8px ;
+    color: rgba(22, 24, 35, .75);
+    font-family: ProximaNova,Arial,Tahoma,PingFangSC,sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 0;
+}
+.iconCheck{
+    color: rgb(32, 213, 236);
+}
+.SeeMore{
+    padding-left: 10px;
+    padding-top: 10px;
+    color: rgb(254, 44, 85);
+    font-family: ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+}
+/* tippy items */
+.TippyContainer{
+    width: max-content;
+    background-color: white;
+    padding: 20px;
+    box-shadow: rgb(0 0 0 / 12%) 0px 4px 16px;
+    border-radius: 8px
+}
+.Fs44px{
+    height:44px;
+    width: 44px;
+}
+.FlexButton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.FixIn4User{
+    padding-top: 20px;
+    margin-left: 0;
+}
+.FixUserName{
+    font-size: 18px;
+    font-family: SofiaPro, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 700;
+}
+.FixUserNickName{
+    font-family: ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+.StyleIn4Fl{
+    line-height: 20px;
+    padding-right: 10px;
+}
+.In4Fl{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.styleN{
+    color: rgba(22, 24, 35, 0.75);
+    font-size: 14px;
+}
+.styleS{
+    font-size: 14px;
+}

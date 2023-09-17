@@ -1,0 +1,23 @@
+.Container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.Items{
+    color: rgba(22, 24, 35, .5);
+    cursor: pointer;
+    font-size: 14px;
+    padding-right:10px ;
+    padding-bottom: 10px;
+}
+.Items:hover{
+    text-decoration:underline;
+}
+.endItems{
+    color: rgba(22, 24, 35, .5);
+    font-size: 14px;
+    padding-right:10px ;
+    padding-bottom: 10px;
+}

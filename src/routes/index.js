@@ -7,10 +7,19 @@ import Following from '~/pages/Following/';
 import ProFile from '~/pages/profile/';
 import Upload from '~/pages/Upload/';
 import FeedBack from '~/pages/feedback';
+<<<<<<< HEAD
 
 const publicRoutes = [
     { path: Config.Routes.Home, component: Home },
     { path: Config.Routes.following, component: Following },
+=======
+import Live from '~/pages/Live';
+
+const publicRoutes = [
+    { path: Config.Routes.Home, component: Home },
+    { path: Config.Routes.Following, component: Following },
+    { path: Config.Routes.Live, component: Live },
+>>>>>>> d2f0d7cbe551446e2f2ec6b3a3d084765f20922b
     { path: Config.Routes.ProFile, component: ProFile },
     { path: Config.Routes.Upload, component: Upload, layout: HeaderOnly },
     { path: Config.Routes.FeedBack, component: FeedBack, layout: HeaderOnly },

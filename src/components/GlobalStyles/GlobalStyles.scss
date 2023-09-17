@@ -9,7 +9,11 @@
     --header-search-height:27px;
     --header-input-search-width:270px;
     // size bar
+<<<<<<< HEAD
     --sizeBar-width:356px;
+=======
+    --sizeBar-width:250px;
+>>>>>>> d2f0d7cbe551446e2f2ec6b3a3d084765f20922b
     //font
     --fontFamily:ProximaNova;
 }
@@ -35,7 +39,11 @@ html *::-webkit-scrollbar {
 }
 html *::-webkit-scrollbar-thumb {
     border-radius: 4px;
+<<<<<<< HEAD
     background-color: rgba(0, 0, 0, .15);
+=======
+    background-color: rgba(241, 241, 241, 1);
+>>>>>>> d2f0d7cbe551446e2f2ec6b3a3d084765f20922b
 }
 html *::-webkit-scrollbar-track {
     border-radius: 0;

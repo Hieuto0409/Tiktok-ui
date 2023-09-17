@@ -27,7 +27,13 @@ font-family: ProximaNova;
 .title{
     border-radius: 999px;
     padding: 0;
+<<<<<<< HEAD
     min-width: max-content !important;
+=======
+    text-overflow: ellipsis ;
+    overflow: hidden ;
+    white-space: nowrap ;
+>>>>>>> d2f0d7cbe551446e2f2ec6b3a3d084765f20922b
 }
 .outline{
     border: 1px solid var(--primary);

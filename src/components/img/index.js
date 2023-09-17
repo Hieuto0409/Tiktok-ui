@@ -17,6 +17,7 @@ function Image({ className, fallBack = Imgs.logoError, src, ...props }, ref) {
                 src={ErrorImg || src}
                 {...props}
                 onError={ErrorSrc}
+                alt={'lỗi ảnh'}
             />
         </>
     );

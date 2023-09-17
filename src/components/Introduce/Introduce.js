@@ -3,7 +3,7 @@ import style from './style.module.css';
 function Introduce({ label }) {
     return (
         <div>
-            <a className={style.Items}>{label}</a>
+            <p className={style.Items}>{label}</p>
         </div>
     );
 }

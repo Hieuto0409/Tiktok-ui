@@ -1,25 +1,21 @@
 @import 'normalize.css';
-:root{
-    --primary:#fe2c55;
+:root {
+    --primary: #fe2c55;
     // header
-    --header-height:60px;
-    --header-padding:0 100px;
-    --header-content-width:1150px;
-    --header-search-width:361px;
-    --header-search-height:27px;
-    --header-input-search-width:270px;
+    --header-height: 60px;
+    --header-padding: 0 100px;
+    --header-content-width: 1150px;
+    --header-search-width: 361px;
+    --header-search-height: 27px;
+    --header-input-search-width: 270px;
     // size bar
-<<<<<<< HEAD
-    --sizeBar-width:356px;
-=======
-    --sizeBar-width:250px;
->>>>>>> d2f0d7cbe551446e2f2ec6b3a3d084765f20922b
+    --sizeBar-width: 250px;
     //font
-    --fontFamily:ProximaNova;
+    --fontFamily: ProximaNova;
 }
-html{
+html {
     font-size: 62.5%;
-    body{
+    body {
         font-family: 'ProximaNova', sans-serif;
         font-size: 1.62rem;
         line-height: 1.5;
@@ -27,7 +23,7 @@ html{
         overflow-y: overlay;
     }
 }
-    *{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -39,59 +35,56 @@ html *::-webkit-scrollbar {
 }
 html *::-webkit-scrollbar-thumb {
     border-radius: 4px;
-<<<<<<< HEAD
-    background-color: rgba(0, 0, 0, .15);
-=======
     background-color: rgba(241, 241, 241, 1);
->>>>>>> d2f0d7cbe551446e2f2ec6b3a3d084765f20922b
 }
 html *::-webkit-scrollbar-track {
     border-radius: 0;
     background-color: rgba(0, 0, 0, 0);
 }
-button{
+button {
     font-family: 'ProximaNova';
 }
-span,a{
+span,
+a {
     font-family: 'ProximaNova' !important;
 }
-input{
+input {
     font-family: 'ProximaNova2';
 }
 // Font
 @font-face {
-    font-family:ProximaNova ;
+    font-family: ProximaNova;
     src: url('/assets/Font/Proxima-Nova-Bold.woff');
 }
 @font-face {
-    font-family:ProximaNova2 ;
+    font-family: ProximaNova2;
     src: url('/assets/Font/Proxima-Nova-Regular.woff2');
 }
 @font-face {
-    font-family:ProximaNova ;
+    font-family: ProximaNova;
     src: url('/assets/Font/ProximaNova-Semibold.woff2');
 }
 @font-face {
-    font-family:SofiaPro ;
+    font-family: SofiaPro;
     src: url('/assets/Font/sofiapro-bold.woff');
 }
 @font-face {
-    font-family:SofiaPro ;
+    font-family: SofiaPro;
     src: url('/assets/Font/sofiapro-bold.woff2');
 }
 @font-face {
-    font-family:SofiaPro ;
+    font-family: SofiaPro;
     src: url('/assets/Font/sofiapro-medium.woff');
 }
-// Tippy    
-.tippy-content{
+// Tippy
+.tippy-content {
     font-size: 16px;
     line-height: 22px;
     background-color: rgba(84, 84, 84, 0.92);
     color: rgb(255, 255, 255);
     padding: 8px;
-    border-radius: 8px
+    border-radius: 8px;
 }
-.tippy-box[data-placement^=bottom]>.tippy-arrow:before{
+.tippy-box[data-placement^='bottom'] > .tippy-arrow:before {
     left: 11px !important;
 }

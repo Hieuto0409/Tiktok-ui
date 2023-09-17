@@ -1,58 +1,53 @@
-.wrapper{
-font-size : 16px ;
-font-weight : 600 ;
-min-width : 100px ;
-padding : 9px 16px ;
-border: 1px solid rgba(22, 24, 35, 0.12);
-color: black;
-cursor: pointer;
-background-color: white;
-text-align: center;
-font-family: ProximaNova;
+.wrapper {
+    font-size: 16px;
+    font-weight: 600;
+    min-width: 100px;
+    padding: 9px 16px;
+    border: 1px solid rgba(22, 24, 35, 0.12);
+    color: black;
+    cursor: pointer;
+    background-color: white;
+    text-align: center;
+    font-family: ProximaNova;
 }
-.wrapper+.wrapper{
+.wrapper + .wrapper {
     margin-left: 16px;
 }
-.wrapper:hover{
+.wrapper:hover {
     background-color: rgba(22, 24, 35, 0.03);
 }
-.primary{
+.primary {
     background-color: var(--primary);
     color: white;
-    border-radius:4px;
+    border-radius: 4px;
 }
-.primary:hover{
-    background : linear-gradient( 0deg , rgba( 0 , 0 , 0 , 0.06 ) , rgba( 0 , 0 , 0 , 0.06 ) ) , #FE2C55 ;
+.primary:hover {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)), #fe2c55;
 }
-.title{
+.title {
     border-radius: 999px;
-    padding: 0;
-<<<<<<< HEAD
-    min-width: max-content !important;
-=======
-    text-overflow: ellipsis ;
-    overflow: hidden ;
-    white-space: nowrap ;
->>>>>>> d2f0d7cbe551446e2f2ec6b3a3d084765f20922b
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
-.outline{
+.outline {
     border: 1px solid var(--primary);
     border-radius: 4px;
     color: var(--primary);
     padding: 0;
     width: max-content;
 }
-.outline:hover{
+.outline:hover {
     background-color: rgba(254, 44, 85, 0.06);
 }
-.disable{
+.disable {
     pointer-events: none;
     opacity: 0.5;
 }
-.noBorder{
+.noBorder {
     border: none;
 }
-a{
+a {
     text-decoration: none;
     display: block;
     line-height: normal;

@@ -1,29 +1,15 @@
-.container{
-    display: flex;
-<<<<<<< HEAD
-    justify-content: center;
-    width:100%;
-    padding: var(--header-padding);
-=======
+.container {
     /* justify-content: center; */
-    width:100%;
+    width: 100%;
     /* padding: var(--header-padding); */
     max-width: 100%;
->>>>>>> d2f0d7cbe551446e2f2ec6b3a3d084765f20922b
 }
-.containerContent{
+.containerContent {
     margin-top: var(--header-height);
     width: var(--header-content-width);
-<<<<<<< HEAD
-    display: flex;
-}
-.content{
-    flex: 1;
-=======
     /* display: flex; */
 }
-.content{
+.content {
     /* flex: 1; */
     margin-left: var(--sizeBar-width);
->>>>>>> d2f0d7cbe551446e2f2ec6b3a3d084765f20922b
 }

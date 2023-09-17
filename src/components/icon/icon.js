@@ -14,8 +14,6 @@ export const MessageIcon = ({ width = 24, height = 24, className }) => (
         ></path>
     </svg>
 );
-<<<<<<< HEAD
-=======
 export const EffectIcon = ({ width = 24, height = 24, className }) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -83,7 +81,6 @@ export const EffectIcon = ({ width = 24, height = 24, className }) => (
         </defs>
     </svg>
 );
->>>>>>> d2f0d7cbe551446e2f2ec6b3a3d084765f20922b
 export const InboxIcon = ({ width = 32, height = 32, className }) => (
     <svg
         className={className}
@@ -116,8 +113,6 @@ export const SearchIcon = ({ width = 24, height = 24, className }) => (
         ></path>
     </svg>
 );
-<<<<<<< HEAD
-=======
 export const HomeIcon = ({ width = 32, height = 32, className }) => (
     <svg
         width={width}
@@ -259,4 +254,3 @@ export const IconMusic = ({ width = 16, height = 16, className }) => (
         ></path>
     </svg>
 );
->>>>>>> d2f0d7cbe551446e2f2ec6b3a3d084765f20922b
